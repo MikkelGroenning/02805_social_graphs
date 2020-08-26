@@ -1,4 +1,4 @@
-name: TEST_ENVIRONMENT
+name: social_graphs
 dependencies:
   - python=3.7
   - ipykernel
@@ -9,6 +9,7 @@ dependencies:
   - seaborn
   - tqdm
   - setuptools
+  - networkx
   - pip
   - pip:
       - "--editable ."
