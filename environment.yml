@@ -9,7 +9,7 @@ dependencies:
   - seaborn
   - tqdm
   - setuptools
-  - networkx
+  - networkx = 2.5
   - pip
   - pip:
       - "--editable ."
