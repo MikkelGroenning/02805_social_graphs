@@ -1,17 +1,22 @@
 name: social_graphs
 dependencies:
   - python=3.7
+  - networkx=2.5
   - ipykernel
+  - jupyter
   - numpy
   - pandas
   - scikit-learn
   - matplotlib
   - seaborn
   - tqdm
+  - nltk
   - setuptools
-  - networkx = 2.5
+  - python-louvain
   - pip
   - pip:
       - "--editable ."
       - black
-      - nb_black
+      - fa2
+      - powerlaw
+      - wordcloud
